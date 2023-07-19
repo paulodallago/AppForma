@@ -1,7 +1,5 @@
 === Avisos ===
 
-Se der erro quando abrir esse diretório raiz no vscode, abra separadamente o React ou Api se não o vscode surta.
-
 Como achar o código → AppForma\AppFormaAPI\src\main\java\com\appforma
 
 Instalar JDK 17 e Maven 3.9.3 (configurar as variáveis de sistema)
@@ -17,17 +15,3 @@ https://github.com/jgdlago/petshopSystem/tree/main/petshopSystem_API/src/main/ja
 back4app → Hospedar API online
 https://www.elephantsql.com → SQL Online
 mariadb → DB open source
-
-=== Cores ===
-
-#FFFFFF (white)
-#28b2b4 (a soft aqua/teal color)		
-#07374b (a dark navy blue color)		
-#ffdbac (a warm peachy color)
-#a3c3d9 (a light blue-gray color)
-#e0c3d9 (a pale lavender color)
-#c3d977 (a light chartreuse color)
-#c3777b (a muted rose color)
-#F5837D (a vibrant coral color)
-
-https://color.adobe.com/pt/create/color-wheel
