@@ -1,0 +1,23 @@
+package com.appforma.controllers;
+
+import com.appforma.entities.GenericEntity;
+import com.appforma.services.GenericService;
+
+public abstract class GenericController<TEntidade extends GenericEntity> {
+	
+	abstract GenericService<TEntidade> getService();
+
+//	Busca por id
+    @GetMapping("/{id}")
+    public ResponseEntity<Object> findById(@PathVariable Integer id) {
+        try {
+            Optional<TEntidade> entidade = getService().findById(id);
+            if (entidade.isEmpty()) {
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("ID não encontrado");
+            }
+            return ResponseEntity.status(HttpStatus.OK).body(entidade);
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        }
+    }
+}

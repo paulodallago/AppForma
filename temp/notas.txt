@@ -6,6 +6,9 @@ Instalar JDK 17 e Maven 3.9.3 (configurar as variáveis de sistema)
 
 Instalem todas as extensões que o vscode sugerir
 
+Pra testar, rodem o AppFormaApiApplication.java
+No navegador abram http://localhost:8080/cliente
+
 === Exemplos ===
 
 https://github.com/jgdlago/petshopSystem/tree/main/petshopSystem_API/src/main/java/com/petshopSystem
