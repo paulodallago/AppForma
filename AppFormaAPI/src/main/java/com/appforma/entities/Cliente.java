@@ -152,4 +152,12 @@ public class Cliente extends GenericEntity{
     public void setChecklist(List<Checklist> checklist){
         this.checklist = checklist;
     }
+
+    public List<Atividades> getAtividades(){
+        return atividades;
+    }
+
+    public void setAtividades(List<Atividades> atividades){
+        this.atividades = atividades;
+    }
 }
