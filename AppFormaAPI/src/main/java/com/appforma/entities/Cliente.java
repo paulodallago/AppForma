@@ -178,4 +178,8 @@ public class Cliente extends GenericEntity{
         this.tipo_projeto = data.tipo_projeto();
         this.valor_projeto = data.valor_projeto();
     }
+
+    // Construtor padrão (sem argumentos) necessário pelo JPA
+    public Cliente() {
+    }
 }
